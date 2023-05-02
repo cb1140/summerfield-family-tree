@@ -1,0 +1,72 @@
+/* Header CSS */
+
+header {
+    height: 56px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #887581;
+    color: white;
+  }
+  
+  /* Body CSS */
+  
+  body {
+    padding-left: 150px;
+    padding-right: 150px;
+    font-family: Helvetica, Arial, sans-serif; /* will default use 1st, 2nd if not found, 3rd if not found */
+    background-color: #b1a2b0;
+  }
+  
+  /* NavBar CSS */
+  
+  .navigation {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .navigation a {
+    background-color: #887581;
+    float: left;
+    text-align: center;
+    padding: 15px 15px;
+    text-decoration: none;
+    font-size: 22px;
+    color: white;
+  }
+  
+  .navigation a:hover {
+    background-color: #cec2d7;
+    color: #887581;
+  }
+  
+  .navigation a:active {
+    background-color: #cec2d7;
+    color: #887581;
+  }
+  
+  /* a = individually all    * = ALL */
+  
+  .navigation-centered a {
+    float: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  .navigation-centered {
+    float: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 22px;
+  }
+  
+  .navigation-right {
+    float: right;
+  }
+  
